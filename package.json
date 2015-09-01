@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/LulzAugusto/ganhei/issues"
   },
-  "homepage": "https://github.com/LulzAugusto/ganhei#readme"
+  "homepage": "https://github.com/LulzAugusto/ganhei#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.61.0"
+  }
 }
