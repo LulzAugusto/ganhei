@@ -1,0 +1,28 @@
+{
+  "name": "ganhei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "compile": "babel -d build src -s",
+    "build": "npm run clean && npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LulzAugusto/ganhei.git"
+  },
+  "keywords": [
+    "ganhei",
+    "loterias",
+    "megasena"
+  ],
+  "author": "Luiz A. Crisostomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LulzAugusto/ganhei/issues"
+  },
+  "homepage": "https://github.com/LulzAugusto/ganhei#readme"
+}
